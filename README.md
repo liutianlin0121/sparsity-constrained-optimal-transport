@@ -1,4 +1,4 @@
-# 1D Demos of Sparsity-constrained Optimal Transport
+# Sparsity-constrained Optimal Transport
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1yxxeqrlKsGrhoqLmY7IjJNgOJnd3Pvu1?usp=sharing)
 
@@ -6,7 +6,7 @@ This repository contains a Google Colab notebook demonstrating sparsity-constrai
 
 > Liu, T., Puigcerver, J., & Blondel, M. (2023). [Sparsity-constrained optimal transport](https://openreview.net/forum?id=yHY9NbQJ5BP). Proceedings of the Eleventh International Conference on Learning Representations (ICLR).
 
-In this repository, we focus on 1D problems: transporting between 1D distributions. The official implementation in the [vmoe](https://github.com/google-research/vmoe/tree/main/vmoe/projects/sparsity_constrained_ot) repository includes additional demos showcasing applications in 2D, color transfer, and vision mixture-of-experts models. 
+We focus on 1D problems here: transporting between 1D distributions. The official implementation in the [vmoe](https://github.com/google-research/vmoe/tree/main/vmoe/projects/sparsity_constrained_ot) repository includes additional demos showcasing applications in 2D, color transfer, and vision mixture-of-experts models. 
 
 While the official [vmoe](https://github.com/google-research/vmoe/tree/main/vmoe/projects/sparsity_constrained_ot) repository is based on JAX, this repository also demonstrates the usage of sparsity-constrained OT in PyTorch (thanks to the backend system in [POT](https://github.com/PythonOT/POT)).
 
@@ -23,9 +23,9 @@ To try out the demo notebook, click the "Open in Colab" button above or access i
 
 ## Citation
 
-If you find our work useful in your research, please consider citing:
+Please find more details in our [paper](https://openreview.net/forum?id=yHY9NbQJ5BP), accepted for a spotlight presentation at ICLR 2023; if you find our work useful in your research, please consider citing:
 
-```
+```bibtex
 @inproceedings{
   liu2023sparsity,
   title={Sparsity-constrained optimal transport},
